@@ -1,0 +1,71 @@
+body {
+    background-color: #d4edda;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.marquesina {
+    background-color: #155724;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+nav {
+    background-color: #28a745;
+    padding: 10px 0;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.contenido {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.imagen {
+    width: 60%;
+    max-width: 500px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.boton-container {
+    text-align: center;
+    margin: 30px;
+}
+
+button {
+    background-color: #218838;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e7e34;
+}
